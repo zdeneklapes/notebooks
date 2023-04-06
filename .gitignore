@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+
+others/
+.ruff_cache/
+
+# rsync
+*.rsync_*
+
+# Env
+env/
+*.env*
+!sample.env*
+*.lock
+
+# Pack
+*.zip
+*.tar.*
+
+# Vim
+tags
+
+# Documentation Doxygen
+doc/**
+!doc/Doxyfile
+
+# Documentation Latex
+**out/
+*.dvi
+*.log
+*.blg
+*.bbl
+*.toc
+*.aux
+*.out
+*.lof
+*.ptc
+*.bcf
+*.eps
+*.pdf
+!**/zadani.pdf
+*.bak0
+
+# IDE
+**.idea/
+**.vscode/
+
+# Caches
+**.cache**
+
+# Python
+**.pytest_cache**
+**__pycache__**
+*.egg-info/
+**venv**/
+**.ipynb_checkpoints**
+
+# Logs
+logs/
+
+# Images
+*.jpg
+*.jpeg
+*.png
+
+# Data
+/data/
+
+# Output
+**out/
+**wandb/
+
